@@ -1,0 +1,97 @@
+/* --- phones --- */
+/* -- from 769px on -- */
+@media screen and (max-width: 769px) {
+  .Home_btn {
+    margin: 40px 0 20px;
+  }
+  .App {
+    margin: 100px 10px 85px;
+  }
+  .App__mainDiv {
+    padding: 10px;
+  }
+  .allPagesDiv {
+    display: block;
+  }
+  .Skills__div-content {
+    padding: 10px;
+    margin: 0;
+  }
+  .Skills__content {
+    margin: 0;
+  }
+  .RobotCard img {
+    height: 200px;
+    padding: 5px;
+    width: 200px;
+  }
+}
+
+/* -- burger menu -- */
+/* -- up to 769px --*/
+@media screen and (min-width: 769px) {
+  #NavbarMain__burger {
+    display: none;
+  }
+  .NavbarMain__links-burger {
+    display: none;
+  }
+  .NavBarMain__content-burger {
+    display: none;
+  }
+}
+
+
+/* --- tablets --- */
+/* -- from 768px on -- */
+@media screen and (max-width: 769px) {
+  #NavbarMain__burger {
+    display: block;
+    position: absolute;
+    right: 20px;
+  }
+  .NavBarMain__links {
+    display: none;
+  }
+  .NavBarMain__content {
+    display: none;
+  }
+  .NavbarMain__links-burger {
+    display: flex;
+    flex-direction: column;
+    background-color: #016c77;
+    position: absolute;
+    right: 0;
+    top: -110px;
+    width: 130px;
+    z-index: -2;
+    padding: 10px;
+    text-align: right;
+    color: white;
+    transition: top .5s linear;
+  }
+  .NavbarMain__links-burger.is-active {
+    top: 70px;
+  }
+  .NavBarMain__content-burger {
+    padding-right: 10px;
+    font-size: 15px;
+  }
+  .RobotCard img {
+    height: 200px;
+    padding: 5px;
+    width: 200px;
+  }
+}
+
+/* --- larger screens --- */
+/* -- from 852px on -- */
+@media screen and (max-width: 852px) {
+  .Skills__div-content {
+    padding-bottom: 10px;
+    margin: 0;
+  }
+  .Skills__content {
+    margin: 0;
+  }
+}
